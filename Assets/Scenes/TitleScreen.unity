@@ -1436,6 +1436,7 @@ GameObject:
   - component: {fileID: 1128852983}
   - component: {fileID: 1128852984}
   - component: {fileID: 1128852981}
+  - component: {fileID: 1128852985}
   m_Layer: 5
   m_Name: SplashText
   m_TagString: Untagged
@@ -1450,13 +1451,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128852979}
-  m_LocalRotation: {x: 0, y: 0, z: 0.2588191, w: 0.9659258}
+  m_LocalRotation: {x: 0, y: 0, z: 0.17364816, w: 0.9848078}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1595107772}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 20}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 443, y: 304}
@@ -1574,6 +1575,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1128852985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128852979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6bf7fbbd5890274e98d7df448aa84a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splashTextFile: {fileID: 4900000, guid: fcee0a49adf418040bd1fb3b36e78a1d, type: 3}
 --- !u!1 &1183281506
 GameObject:
   m_ObjectHideFlags: 0
