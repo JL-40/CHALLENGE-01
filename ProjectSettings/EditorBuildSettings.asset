@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Singleplayer.unity
+    guid: 04ac00d3d7b81bb47a417405718943f9
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer.unity
+    guid: 7776a475d32edfa45add914001e4bc06
+  - enabled: 1
+    path: Assets/Scenes/MinecraftRealms.unity
+    guid: 662b6f22f3dfbae4e933e7f48ba16e34
+  - enabled: 1
+    path: Assets/Scenes/Languages.unity
+    guid: dd581c3f37e51d147ae64e63cb227503
+  - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: 1e0a5c23fdfd59b44a48b16e090dfe51
+  - enabled: 1
+    path: Assets/Scenes/Accessibility.unity
+    guid: ca609cb0a694e9b44ab9d9bdc7a1868d
   m_configObjects: {}

@@ -35,8 +35,8 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadScene("Options", LoadSceneMode.Single);
     }
 
-    public void ToAssessibility()
+    public void ToAccessibility()
     {
-        SceneManager.LoadScene("Assessibility", LoadSceneMode.Single);
+        SceneManager.LoadScene("Accessibility", LoadSceneMode.Single);
     }
 }
