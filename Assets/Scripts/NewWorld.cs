@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using System;
 
-public class CreateNewWorld : MonoBehaviour
+public class NewWorld : MonoBehaviour
 {
     [SerializeField] GameObject newWorldPrefab;
     [SerializeField] GameObject scrollViewContentObject;
@@ -21,7 +21,7 @@ public class CreateNewWorld : MonoBehaviour
         
     }
 
-    public void CreateWorld()
+    public void CreateNewWorld()
     {
         GameObject newWorld = Instantiate(newWorldPrefab, scrollViewContentObject.transform);
 

@@ -35,10 +35,4 @@ public class SplashTextController : MonoBehaviour
             PlayerPrefs.Save();
         }
     } 
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
