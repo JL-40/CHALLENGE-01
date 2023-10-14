@@ -14,6 +14,13 @@ public class SplashTextController : MonoBehaviour
     {
         splashText = GetComponent<TMP_Text>();
 
+        if (PlayerPrefs.HasKey("SplashText") == true)
+        {
+            splashText.text = PlayerPrefs.GetString("SplashText");
+
+            return;
+        }
+
 
         if (splashTextFile != null)
         {
@@ -22,7 +29,11 @@ public class SplashTextController : MonoBehaviour
             int option = Random.Range(0, lines.Length);
 
             splashText.text = lines[option];
+
+            PlayerPrefs.SetString("SplashText", splashText.text);
+            PlayerPrefs.Save();
         }
+
     }
 
     // Update is called once per frame
