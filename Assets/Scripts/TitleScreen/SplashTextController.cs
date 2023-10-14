@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEditor;
 
 public class SplashTextController : MonoBehaviour
 {
@@ -33,8 +34,7 @@ public class SplashTextController : MonoBehaviour
             PlayerPrefs.SetString("SplashText", splashText.text);
             PlayerPrefs.Save();
         }
-
-    }
+    } 
 
     // Update is called once per frame
     void Update()
