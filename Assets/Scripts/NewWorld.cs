@@ -21,14 +21,17 @@ public class NewWorld : MonoBehaviour
         
     }
 
-    public void CreateNewWorld()
+    public void CreateNewWorld(bool isServer = false)
     {
         GameObject newWorld = Instantiate(newWorldPrefab, scrollViewContentObject.transform);
+
+        if (isServer == true)
+        {
+            newWorld.transform.SetSiblingIndex(scrollViewContentObject.transform.childCount - 2);
+        }
 
         TMP_Text description = newWorld.transform.GetChild(2).GetComponent<TMP_Text>();
 
         description.text = $"{newWorld.name} ({DateTime.Now.ToString("yyyy-MM-dd hh:mm tt")})";
-
-        SingleplayerManager.Instance.AddWorldSave(newWorld);
     }
 }
